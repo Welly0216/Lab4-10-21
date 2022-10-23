@@ -14,9 +14,9 @@
         android:text="點餐:"
         android:textSize="22sp"
         android:textColor="@android:color/black"
-        app:layout_constraintBottom_toBottomOf="+id/btn_choice"
+        app:layout_constraintBottom_toBottomOf="@id/btn_choice"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/btn_choice"/>
+        app:layout_constraintTop_toTopOf="@id/btn_choice"/>
 
     <Button
         android:id="@+id/btn_choice"
@@ -42,7 +42,7 @@
         />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/tv_meal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="飲料:無\n\n甜度:無\n\n冰塊:無"
